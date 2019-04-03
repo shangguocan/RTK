@@ -1,0 +1,40 @@
+
+%% 第1章 RTK与CBCT介绍
+
+\chapter{RTK与CBCT简介}
+
+\section{CT}
+
+CT基本原理\cite{buzug2011computed}是X射线的衰减。
+
+
+CT重建方法包括传统的FDK方法，Grangeat重建算法,Katsevich算法，BPF算法，迭代重建算法包括代数重建算法(ART，SART),统计迭代重建算法(ML-EM, OSEM)，以及最新的深度学习方法
+
+\subsection{CBCT}
+
+
+\subsection{CBCT在放射治疗中的应用}
+CBCT常用于放射治疗中的图像引导部分，CBCT尤其用于牙科成像
+
+
+
+\section{RTK}
+重建工具包（RTK\cite{rit2014reconstruction}）\footnote{\textcolor{blue}{\url{http://www.openrtk.org/}}}是一种开源和跨平台软件，用于基于Insight Toolkit（ITK）\footnote{\textcolor{blue}{\url{http://www.itk.org/}}}）的快速圆锥束CT重建。
+RTK由RTK联盟开发。RTK提供或将提供用于重建的基本操作符，例如，过滤，前向，投影和反投影多线程CPU和GPU版本用于多个扫描仪的呼吸运动校正I / O的工具预处理用于散射校正的原始数据
+
+
+\section{开发CBCT重建算法需要的知识技能树}
+\begin{itemize}
+    \item CBCT重建算法
+    \item CUDA
+    \item 并行编程
+    \item 泛型编程
+\end{itemize}
+
+\section{小结}
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{bib/chp1.bib}

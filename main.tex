@@ -1,0 +1,70 @@
+\documentclass[a4paper,11pt,twoside, openany]{ctexbook}
+% \usepackage[utf8]{inputenc}
+
+\usepackage{ctex}
+\usepackage{wallpaper} % XeLaTeX:使用wallpaper包设置封面及背景
+% https://blog.yasking.org/a/xelatex-cover.html
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{float}   % 控制图片位置
+\usepackage{geometry}
+\geometry{left=2.0cm, right=2.0cm, top=2.5cm, bottom=2.5cm}
+\usepackage[sectionbib]{chapterbib}  
+\usepackage{cite}
+% 给每章或每节加入独立的参考文献
+% \usepackage{natbib}  % chapterbib会与natbib冲突
+% \usepackage{biblatex}
+\usepackage{tikz}
+
+\usepackage{hyperref}
+% \usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\hypersetup{colorlinks, citecolor=blue, filecolor=green,linkcolor=black,urlcolor=blue,
+% colorlinks=false
+}
+
+\usepackage{enumerate}
+\usepackage{amssymb}
+
+\usepackage{makeidx}  % http://blog.sina.com.cn/s/blog_15e74da710102wgaq.html
+\makeindex
+
+\newcommand{\reffig}[1]{Figure \ref{#1}} % 需要引用图片的时候，用\reffig代替\ref
+
+
+\title{RTK从入门到精通}
+\author{商国灿 \ 苏州雷泰医疗科技有限公司 \ 图像算法工程师}
+\date{April 2019}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+% \centering
+the page left bank!
+
+
+\include{chp/contents}
+\include{chp/perface}
+\include{chp/chp1}
+\include{chp/chp2}
+\include{chp/chp3}
+\include{chp/chp4}
+\include{chp/chp5}
+\include{chp/chp6}
+\include{chp/chp7}
+\include{chp/chp8}
+\include{chp/chp9}
+\include{chp/chp10}
+\include{chp/chp11}
+\include{chp/chp12}
+\include{chp/chp13}
+\include{chp/chp14}
+\include{chp/chp15}
+\include{chp/chp16}
+\include{chp/chp17}
+\include{chp/chp18}
+
+\end{document}
